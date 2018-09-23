@@ -111,7 +111,7 @@
             ]
         },
         {
-            "comments": "Generalized from resource: '/subscriptions/df32a6de-f332-419d-9fab-0e025a236d01/resourcegroups/devtools/providers/microsoft.devtestlab/schedules/shutdown-computevm-devtoolswin'.",
+            "comments": "Add Autoshutdown to the VM at 19:00",
             "type": "microsoft.devtestlab/schedules",
             "name": "Autoshutdown",
             "apiVersion": "2016-05-15",
