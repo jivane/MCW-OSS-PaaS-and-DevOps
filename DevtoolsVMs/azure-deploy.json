@@ -84,29 +84,30 @@
                 }
             },
             "resources": [
-            ]
-        },
-        {
-            "comments": "Add Autoshutdown to the VM at 19:00",
-            "type": "microsoft.devtestlab/schedules",
-            "name": "[concat('Autoshutdown-', parameters('virtualMachineName'))]",
-            "apiVersion": "2016-05-15",
-            "location": "[resourceGroup().location]",
-            "properties": {
-                "status": "Enabled",
-                "taskType": "ComputeVmShutdownTask",
-                "dailyRecurrence": {
-                    "time": "1900"
-                },
-                "timeZoneId": "Romance Standard Time",
-                "notificationSettings": {
-                    "status": "Disabled",
-                    "timeInMinutes": 30
-                },
-                "targetResourceId": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachineName'))]"
-            },
-            "dependsOn": [
-                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachineName'))]"
+                {
+                    "name": "CustomScriptExtension1",
+                    "apiVersion": "2016-03-30",
+                    "type": "extensions",
+                    "location": "[variables('location')]",
+                    "properties": {
+                        "publisher": "Microsoft.OSTCExtensions",
+                        "type": "CustomScriptForLinux",
+                        "typeHandlerVersion": "1.4",
+                        "autoUpgradeMinorVersion": true,
+                        "settings": {
+                            "fileUris": [
+                                "[variables('customScriptUri')]"
+                            ],
+                            "commandToExecute": "[concat('bash ', variables('customScriptFileName'))]"
+                        }
+                    },
+                    "dependsOn": [
+                        "[concat('Microsoft.Compute/virtualMachines/', parameters('virtualMachineName'))]"
+                    ],
+                    "tags": {
+                        "displayName": "ConfigureLinuxVM"
+                    }
+                }
             ]
         },
         {
