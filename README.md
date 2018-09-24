@@ -22,8 +22,6 @@ To work with Azure you need an Azure Subscription. See the following guide to in
 
 To get started, click the Deploy to Azure link below. This will provision a fully configured Linux or Windows Lab VM, used as a development machine for the OSS PaaS and DevOps workshop.
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffxkim%2FMCW-OSS-PaaS-and-DevOps%2Fmaster%2FDevtoolsVMs%2Fazure-deploy.json)
-
 # Linux VM details:
 1. Ubuntu Server 16.04 LTS / Windows Server 2016
 2. Docker Community Edition
@@ -35,6 +33,9 @@ To get started, click the Deploy to Azure link below. This will provision a full
 
 See the setup script: [LinuxDevtoolsVMSetup.sh](https://raw.githubusercontent.com/fxkim/MCW-OSS-PaaS-and-DevOps/master/DevtoolsVMs/LinuxDevtoolsVMSetup.sh)
 
+[![Deploy Linux Devtools VM to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffxkim%2FMCW-OSS-PaaS-and-DevOps%2Fmaster%2FDevtoolsVMs%2Fazure-deploy.json)
+
+
 # Windows VM Details
 
 1. Windows Server 2016
@@ -45,3 +46,6 @@ See the setup script: [LinuxDevtoolsVMSetup.sh](https://raw.githubusercontent.co
 6. Opens port 3389 to allow RDP connections
 
 See the setup script: [WinDevToolsSetup.cmd](https://raw.githubusercontent.com/fxkim/MCW-OSS-PaaS-and-DevOps/master/DevtoolsVMs/WinDevToolsSetup.cmd)
+
+[![Deploy Windows Devtools VM to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffxkim%2FMCW-OSS-PaaS-and-DevOps%2Fmaster%2FDevtoolsVMs%2Fazure-deploy.json)
+
