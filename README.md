@@ -14,15 +14,18 @@ This repository contains resources for use with the OSS PaaS and DevOps workshop
 * 15:00 - 16:00   Hands-on Labs: App Modernization with CI/CD
 * 16:00 - 16:30   Closing and Q&A
 
+## Setup of Azure Subscription
+
+To work with Azure you need an Azure Subscription. See the following guide to initialise a trial Azure Subscription: [Azure Pass](https://github.com/fxkim/MCW-OSS-PaaS-and-DevOps/blob/master/DevtoolsVMs/How%20to%20activate%20an%20Azure%20Pass%20Vouchers.pdf)
 
 ## Devtool VM
 
-To get started, click the Deploy to Azure link below. This will provision a fully configured Linux Lab VM, used as a development machine for the OSS PaaS and DevOps workshop.
+To get started, click the Deploy to Azure link below. This will provision a fully configured Linux or Windows Lab VM, used as a development machine for the OSS PaaS and DevOps workshop.
 
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffxkim%2FMCW-OSS-PaaS-and-DevOps%2Fmaster%2FDevtoolsVMs%2Fazure-deploy.json)
 
-VM details:
-1. Ubuntu Server 16.04 LTS
+# Linux VM details:
+1. Ubuntu Server 16.04 LTS / Windows Server 2016
 2. Docker Community Edition
 3. Visual Studio Code
 4. Node.js and NPM
@@ -32,3 +35,13 @@ VM details:
 
 See the setup script: [LinuxDevtoolsVMSetup.sh](https://raw.githubusercontent.com/fxkim/MCW-OSS-PaaS-and-DevOps/master/DevtoolsVMs/LinuxDevtoolsVMSetup.sh)
 
+# Windows VM Details
+
+1. Windows Server 2016
+2. Docker Community Edition
+3. Visual Studio Code
+4. Node.js and NPM
+5. Mongo DB Community Edition
+6. Opens port 3389 to allow RDP connections
+
+See the setup script: [WinDevToolsSetup.cmd](https://raw.githubusercontent.com/fxkim/MCW-OSS-PaaS-and-DevOps/master/DevtoolsVMs/WinDevToolsSetup.cmd)
