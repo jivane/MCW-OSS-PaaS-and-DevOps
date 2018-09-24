@@ -16,7 +16,7 @@ This repository contains resources for use with the OSS PaaS and DevOps workshop
 
 ## Setup of Azure Subscription
 
-This workshop requires an Azure Subscription. See the following guide to initialize a trial Azure Subscription from an [Azure Pass](https://github.com/fxkim/MCW-OSS-PaaS-and-DevOps/blob/master/DevtoolsVMs/How%20to%20activate%20an%20Azure%20Pass%20Vouchers.pdf)
+This workshop requires an Azure Subscription. See the following guide to initialize a trial Azure Subscription with an [Azure Pass](https://github.com/fxkim/MCW-OSS-PaaS-and-DevOps/blob/master/DevtoolsVMs/How%20to%20activate%20an%20Azure%20Pass%20Vouchers.pdf)
 
 ## Devtool Virtual Manchine
 
