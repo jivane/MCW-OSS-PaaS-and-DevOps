@@ -7,7 +7,7 @@ This repository contains resources for use with the OSS PaaS and DevOps workshop
 * 09:00 - 09:30   Welcome and Introduction
 * 09:30 - 10:00   Open Source in Microsoft
 * 10:00 - 10:30   Intro to App Modernization
-* 10:30 - 10:45   Coffee BreakHands on component
+* 10:30 - 10:45   Coffee Break
 * 10:45 - 12:00   Containers & DevOps ([Whiteboard Session workshop](https://github.com/fxkim/MCW-OSS-PaaS-and-DevOps/tree/master/Whiteboard%20Design%20Session))
 * 12:00 - 13:00   Lunch break
 * 13:00 - 15:00   Hands-on Labs: [App Modernization](https://github.com/fxkim/MCW-OSS-PaaS-and-DevOps/tree/master/Hands-on%20Lab)
