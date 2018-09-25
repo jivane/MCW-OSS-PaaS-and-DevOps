@@ -11,7 +11,7 @@ This repository contains resources for use with the OSS PaaS and DevOps workshop
 * 10:45 - 12:00   Containers & DevOps ([Whiteboard Session workshop](https://github.com/fxkim/MCW-OSS-PaaS-and-DevOps/tree/master/Whiteboard%20Design%20Session))
 * 12:00 - 13:00   Lunch break
 * 13:00 - 15:00   Hands-on Labs: [App Modernization](https://github.com/fxkim/MCW-OSS-PaaS-and-DevOps/tree/master/Hands-on%20Lab)
-* 15:00 - 16:00   Hands-on Labs: App Modernization with CI/CD
+* 15:00 - 16:00   Implementing DevOps with CI/CD
 * 16:00 - 16:30   Closing and Q&A
 
 ## Setup of Azure Subscription
